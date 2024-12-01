@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Faculty Glyphic", sans-serif;
+}
+
+body {
+    background-color: #fec3d1;
+    color: black;
+    overflow-x: hidden;
+
+}
+
+header {
+
+    width: 100%; 
+    background-color: #162639;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    border-radius: 0 0 30px 30px;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fcf5e5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.logo-imagem img {
+    border-radius: 15px;
+    width: 100px;
+    margin-right: 15px;
+}
+
+.logo-texto h1 {
+    color: #e9f1f2;
+    font-size: 40px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a  {
+    color: rgb(255, 255, 255);
+    padding: 8px 30px;
+}
+
+.contNav {
+
+    background-color: #162639;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    font-size:20px;
+    text-decoration: none;
+    border-radius:15px;
+}
+
+.contNav:hover {
+    background-color: #355581;
+    color: #FCF5E5;
+    
+}
+
+nav .ativo, nav a:hover {
+    color: rgb(0, 0, 0); 
+    background-color: #fec3d1;
+}
+
+
+
+.imagem_coreia {
+    border-radius: 15px;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+    display: block;
+    margin: 20px auto;
+}
+
+p {
+    font-size: 20px;
+    margin: 30px;     
+}
+
+h2 {
+    text-align: center;
+    font-size: 37px;
+    color: #10283d;
+    margin: 40px 0 10px 40px;
+}
+
+.titulos-belezas{
+    text-align:left;
+    font-size: 33px;
+    color: #10283d;
+    margin: 40px 0 10px 40px;
+}
+
+h3 {
+    
+    font-size: 25px;
+    margin: 40px 0 10px 40px;
+
+}
+
+.contTd{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.Curiosidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.Curiosidades img {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cultura-pop {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.cultura-pop img {
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+button#bnt-Mostrar {
+
+    padding: 10px 20px;
+    background-color: #011126;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botao-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;         
+}
+
+.central-imagem{
+    text-align: center; 
+    margin-top: 5%;
+}
+
+.galeria img {
+    width: 500px;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+    
+.modal img {
+    margin: 15% auto;
+    display: block;
+    max-width: 55%;
+    max-height: 60%;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 50px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Faculty Glyphic", sans-serif; 
+    text-align: center;
+    color: rgb(18, 1, 1);
+}
+
+
+button {
+    background: #160058;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: #31187c;
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+footer {
+
+    color: rgb(255, 255, 255);
+    background-color: #011126;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    top: 3%;
+    font-size: 30px;
+}
+
+.contNavFooter {
+    background-color: #162639;
+    background-size: cover;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.contNavFooter:hover {
+    background-color: #355581;
+    color: #FCF5E5;
+    text-decoration: none; 
+}
+
+.footer-item {
+    list-style: none; 
+    margin-top: 10px;
+    text-align: center;
+}
+

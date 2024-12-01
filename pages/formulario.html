@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.6">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" href="../assets/images/bandeira-removebg-preview.png" type="image/x-icon">
+    <title>Coreia</title>
+</head>
+
+<body>
+    <header>
+        <figure class="logo-imagem">
+            <img src="/assets/images/images.jfif" alt="Logotipo">
+        </figure>
+        <div class="logo-texto">
+            <h1>Coreia do Sul</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html" class="contNav">Página Principal</a></li>
+                <li><a href="../pages/belezasNaturais.html" class="contNav">Belezas</a></li>
+                <li><a href="../pages/turismo.html" class="contNav">Turismo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Deixe seu Feedback</h1>
+        <form id="feedbackForm">
+
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome">
+            <span class="error" id="nameError"></span>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Seu e-mail">
+            <span class="error" id="emailError"></span>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" placeholder="Feedback" rows="4"></textarea>
+            <span class="error" id="messageError"></span>
+
+            <button type="submit">enviar</button>
+
+        </form>
+
+        <script src="../java/teste.js"></script>
+    </main>
+    <footer>
+        Site sobre a Coreia do Sul
+        <li class="footer-item">
+            <a href="../pages/formulario.html" class="contNavFooter">Deixe seu Feedback</a>
+        </li>
+    </footer>
+</body>
+
+</html>
